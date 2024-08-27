@@ -1,0 +1,72 @@
+.offer{
+    background: #F7F7F8;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: 400;
+    
+}
+.divine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px;
+    height: 104px;
+    gap: 50px;
+}
+.divine span{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Helvetica;
+}
+.divine h1 {
+    font-size: 33.6px;
+    font-weight: 100;
+    font-family: Helvetica;
+}
+
+/*------------ for responsive--------------- */
+
+
+@media (max-width: 450px) {
+    .offer{
+        width: 100vw;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .offer h1{
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0.5px;
+    }
+    .divine{
+        width: 100vw;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0px 0px;
+    }
+    .divine span{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .divine h1 {
+        font-size: 18px;
+    }
+    
+}

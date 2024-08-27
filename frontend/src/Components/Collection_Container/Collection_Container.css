@@ -1,0 +1,17 @@
+.collecction-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+}
+ 
+@media (max-width: 450px){
+    .collecction-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+    }
+}

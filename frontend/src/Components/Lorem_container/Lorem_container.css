@@ -1,0 +1,54 @@
+.lorem-container{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: helvetica;
+    color: #1f1f1e;
+    
+}
+.children{
+    height: 180px;
+    width: 250px;
+    border-top: 1.6px solid #00000046;
+    border-bottom: 1.6px solid #00000046;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.children a{
+    color: black;
+    font-weight:500;
+    font-size: 15px;
+}
+.lorem-container hr{
+    width: 200px;
+    height: 1px;
+    border-radius: 10px;
+    background: #cdcccc;
+}
+.component-Container{
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width: 450px){
+    .lorem-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .component-Container{
+        display: flex;
+        flex-direction: column;
+    }
+}

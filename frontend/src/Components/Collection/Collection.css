@@ -1,0 +1,53 @@
+.collection{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    font-size: 14.4px;
+    gap: 20px;
+}
+.collection img{
+    width: 650.4px;
+    /* height: 463.2px; */
+}
+.collection-description{
+    display: flex;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.collection-description span{
+    margin-right: 5px;
+}
+
+.see-Collection{
+    width: 221.6px;
+    height: 43.2px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+@media (max-width: 450px){
+    .collection{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .collection img{
+        width: 366px;
+    }
+    .collection-description{
+        width: 366px;
+        font-size: 16px;
+       
+    }
+    .collection-description span{
+        padding: 0px;
+        
+    }
+    .see-Collection{
+        width: 80vw;
+    }
+}

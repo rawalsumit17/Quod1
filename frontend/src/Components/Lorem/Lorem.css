@@ -1,0 +1,40 @@
+.lorem-children{
+    height: 180px;
+        width: 250px;
+        border-top: 1.6px solid #00000046;
+        border-bottom: 1.6px solid #00000046;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:Helvetica;
+}
+.lorem-data img{
+    height: 134.4px;
+}
+.lorem-data{
+    display: flex;
+    gap: 10px;
+}
+.details-lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.details{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.lorem-ipsum{
+    font-size: 10px;
+    font-weight: 400;
+    color: #999999;
+}
+
+@media (max-width: 450px){
+    .lorem{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

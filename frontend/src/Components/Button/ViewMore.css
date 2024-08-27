@@ -1,0 +1,15 @@
+button {
+    height: 43.2px;
+    width: 178.4px;
+    border: 1.6px solid #A2A2A2;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media (max-width: 450px){
+    button{
+        width: 80vw;
+    }
+}
